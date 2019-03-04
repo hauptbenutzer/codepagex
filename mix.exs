@@ -54,11 +54,11 @@ defmodule Codepagex.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-       {:benchee, "~> 0.2", only: :dev },
-       {:earmark, "~> 1.0", only: :dev},
-       {:ex_doc, "~> 0.14", only: :dev},
+       {:benchee, "~> 0.14", only: :dev},
+       {:earmark, "~> 1.3", only: :dev},
+       {:ex_doc, "~> 0.19", only: :dev},
        {:inch_ex, "~> 0.5", only: :docs},
-       {:credo, "~> 0.5", only: [:dev, :test]}
+       {:credo, "~> 1.0", only: [:dev, :test]}
     ]
   end
 end
